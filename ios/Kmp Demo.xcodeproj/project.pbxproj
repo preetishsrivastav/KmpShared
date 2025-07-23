@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24FCB3E2E30CF3C008A0635 /* sharedKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A24FCB392E30CC1E008A0635 /* sharedKit.xcframework */; };
+		A24FCB3F2E30CF3C008A0635 /* sharedKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A24FCB392E30CC1E008A0635 /* sharedKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2DB25D12E30C5B70020E335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DB25C82E30C5B70020E335 /* Assets.xcassets */; };
+		A2DB25D32E30C5B70020E335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB25CB2E30C5B70020E335 /* LaunchScreen.storyboard */; };
+		A2DB25D42E30C5B70020E335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DB25CD2E30C5B70020E335 /* Main.storyboard */; };
+		A2DB25D52E30C5B70020E335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB25C72E30C5B70020E335 /* AppDelegate.swift */; };
+		A2DB25D62E30C5B70020E335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB25CE2E30C5B70020E335 /* SceneDelegate.swift */; };
+		A2DB25D72E30C5B70020E335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB25CF2E30C5B70020E335 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DB25AA2E30C5A30020E335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DB258B2E30C5A10020E335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DB25922E30C5A10020E335;
+			remoteInfo = "Kmp Demo";
+		};
+		A2DB25B42E30C5A30020E335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DB258B2E30C5A10020E335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DB25922E30C5A10020E335;
+			remoteInfo = "Kmp Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A24FCB402E30CF3C008A0635 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A24FCB3F2E30CF3C008A0635 /* sharedKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A24FCB392E30CC1E008A0635 /* sharedKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sharedKit.xcframework; path = ../shared/build/XCFrameworks/debug/sharedKit.xcframework; sourceTree = "<group>"; };
+		A2DB25932E30C5A10020E335 /* Kmp Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kmp Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DB25A92E30C5A30020E335 /* Kmp DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kmp DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DB25B32E30C5A30020E335 /* Kmp DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kmp DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DB25C72E30C5B70020E335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2DB25C82E30C5B70020E335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DB25C92E30C5B70020E335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DB25CA2E30C5B70020E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2DB25CC2E30C5B70020E335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2DB25CE2E30C5B70020E335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2DB25CF2E30C5B70020E335 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2DB25AC2E30C5A30020E335 /* Kmp DemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kmp DemoTests";
+			sourceTree = "<group>";
+		};
+		A2DB25B62E30C5A30020E335 /* Kmp DemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Kmp DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DB25902E30C5A10020E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24FCB3E2E30CF3C008A0635 /* sharedKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25A62E30C5A30020E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25B02E30C5A30020E335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24FCB382E30CC1E008A0635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24FCB392E30CC1E008A0635 /* sharedKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2DB258A2E30C5A10020E335 = {
+			isa = PBXGroup;
+			children = (
+				A2DB25D02E30C5B70020E335 /* Kmp Demo */,
+				A2DB25AC2E30C5A30020E335 /* Kmp DemoTests */,
+				A2DB25B62E30C5A30020E335 /* Kmp DemoUITests */,
+				A24FCB382E30CC1E008A0635 /* Frameworks */,
+				A2DB25942E30C5A10020E335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DB25942E30C5A10020E335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DB25932E30C5A10020E335 /* Kmp Demo.app */,
+				A2DB25A92E30C5A30020E335 /* Kmp DemoTests.xctest */,
+				A2DB25B32E30C5A30020E335 /* Kmp DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DB25D02E30C5B70020E335 /* Kmp Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A2DB25C72E30C5B70020E335 /* AppDelegate.swift */,
+				A2DB25C82E30C5B70020E335 /* Assets.xcassets */,
+				A2DB25C92E30C5B70020E335 /* Info.plist */,
+				A2DB25CB2E30C5B70020E335 /* LaunchScreen.storyboard */,
+				A2DB25CD2E30C5B70020E335 /* Main.storyboard */,
+				A2DB25CE2E30C5B70020E335 /* SceneDelegate.swift */,
+				A2DB25CF2E30C5B70020E335 /* ViewController.swift */,
+			);
+			path = "Kmp Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DB25922E30C5A10020E335 /* Kmp Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DB25BC2E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp Demo" */;
+			buildPhases = (
+				A2DB258F2E30C5A10020E335 /* Sources */,
+				A2DB25902E30C5A10020E335 /* Frameworks */,
+				A2DB25912E30C5A10020E335 /* Resources */,
+				A24FCB3D2E30CCD5008A0635 /* ShellScript */,
+				A24FCB402E30CF3C008A0635 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kmp Demo";
+			packageProductDependencies = (
+			);
+			productName = "Kmp Demo";
+			productReference = A2DB25932E30C5A10020E335 /* Kmp Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DB25A82E30C5A30020E335 /* Kmp DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DB25C12E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp DemoTests" */;
+			buildPhases = (
+				A2DB25A52E30C5A30020E335 /* Sources */,
+				A2DB25A62E30C5A30020E335 /* Frameworks */,
+				A2DB25A72E30C5A30020E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DB25AB2E30C5A30020E335 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2DB25AC2E30C5A30020E335 /* Kmp DemoTests */,
+			);
+			name = "Kmp DemoTests";
+			packageProductDependencies = (
+			);
+			productName = "Kmp DemoTests";
+			productReference = A2DB25A92E30C5A30020E335 /* Kmp DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2DB25B22E30C5A30020E335 /* Kmp DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DB25C42E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp DemoUITests" */;
+			buildPhases = (
+				A2DB25AF2E30C5A30020E335 /* Sources */,
+				A2DB25B02E30C5A30020E335 /* Frameworks */,
+				A2DB25B12E30C5A30020E335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DB25B52E30C5A30020E335 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2DB25B62E30C5A30020E335 /* Kmp DemoUITests */,
+			);
+			name = "Kmp DemoUITests";
+			packageProductDependencies = (
+			);
+			productName = "Kmp DemoUITests";
+			productReference = A2DB25B32E30C5A30020E335 /* Kmp DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DB258B2E30C5A10020E335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A2DB25922E30C5A10020E335 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A2DB25A82E30C5A30020E335 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A2DB25922E30C5A10020E335;
+					};
+					A2DB25B22E30C5A30020E335 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A2DB25922E30C5A10020E335;
+					};
+				};
+			};
+			buildConfigurationList = A2DB258E2E30C5A10020E335 /* Build configuration list for PBXProject "Kmp Demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DB258A2E30C5A10020E335;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2DB25942E30C5A10020E335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DB25922E30C5A10020E335 /* Kmp Demo */,
+				A2DB25A82E30C5A30020E335 /* Kmp DemoTests */,
+				A2DB25B22E30C5A30020E335 /* Kmp DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DB25912E30C5A10020E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DB25D12E30C5B70020E335 /* Assets.xcassets in Resources */,
+				A2DB25D32E30C5B70020E335 /* LaunchScreen.storyboard in Resources */,
+				A2DB25D42E30C5B70020E335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25A72E30C5A30020E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25B12E30C5A30020E335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A24FCB3D2E30CCD5008A0635 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/..\"\n./gradlew :shared:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DB258F2E30C5A10020E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DB25D52E30C5B70020E335 /* AppDelegate.swift in Sources */,
+				A2DB25D62E30C5B70020E335 /* SceneDelegate.swift in Sources */,
+				A2DB25D72E30C5B70020E335 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25A52E30C5A30020E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DB25AF2E30C5A30020E335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DB25AB2E30C5A30020E335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DB25922E30C5A10020E335 /* Kmp Demo */;
+			targetProxy = A2DB25AA2E30C5A30020E335 /* PBXContainerItemProxy */;
+		};
+		A2DB25B52E30C5A30020E335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DB25922E30C5A10020E335 /* Kmp Demo */;
+			targetProxy = A2DB25B42E30C5A30020E335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2DB25CB2E30C5B70020E335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DB25CA2E30C5B70020E335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2DB25CD2E30C5B70020E335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DB25CC2E30C5B70020E335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DB25BD2E30C5A30020E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../shared/build/XCFrameworks/debug/shared.xcframework\n";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kmp Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DB25BE2E30C5A30020E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kmp Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DB25BF2E30C5A30020E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2DB25C02E30C5A30020E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DB25C22E30C5A30020E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kmp Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kmp Demo";
+			};
+			name = Debug;
+		};
+		A2DB25C32E30C5A30020E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kmp Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kmp Demo";
+			};
+			name = Release;
+		};
+		A2DB25C52E30C5A30020E335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kmp Demo";
+			};
+			name = Debug;
+		};
+		A2DB25C62E30C5A30020E335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.preetish.Kmp-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kmp Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DB258E2E30C5A10020E335 /* Build configuration list for PBXProject "Kmp Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DB25BF2E30C5A30020E335 /* Debug */,
+				A2DB25C02E30C5A30020E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DB25BC2E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DB25BD2E30C5A30020E335 /* Debug */,
+				A2DB25BE2E30C5A30020E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DB25C12E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DB25C22E30C5A30020E335 /* Debug */,
+				A2DB25C32E30C5A30020E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DB25C42E30C5A30020E335 /* Build configuration list for PBXNativeTarget "Kmp DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DB25C52E30C5A30020E335 /* Debug */,
+				A2DB25C62E30C5A30020E335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DB258B2E30C5A10020E335 /* Project object */;
+}
